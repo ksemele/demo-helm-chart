@@ -15,7 +15,7 @@ In this case, it will download my `demo-library` chart from my OCI public repo.
 Look at this dependency: [Chart.yaml#30](./Chart.yaml#30)
 
 ```bash
-helm dependency update .     
+helm dependency update .
 ```
 
 Feel free to render this chart locally to see what happened and how ConfigMap rendered from the library chart:
