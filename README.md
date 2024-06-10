@@ -57,20 +57,20 @@ example:
 
 ```bash
 $ helm package .
-Successfully packaged chart and saved it to: /path/to/demo-chart-0.1.0.tgz
+Successfully packaged chart and saved it to: /path/to/demo-chart-0.1.1.tgz
 ```
 
 ## Push chart to oci repo
 
 ```bash
-helm push demo-chart-0.1.0.tgz oci://quay.io/$QUAY_USERNAME/test-helm
+helm push demo-chart-0.1.1.tgz oci://quay.io/$QUAY_USERNAME/test-helm
 ```
 
 example:
 
 ```bash
-$ helm push demo-chart-0.1.0.tgz oci://quay.io/$QUAY_USERNAME/test-helm
-Pushed: quay.io/greengrunt/test-helm/demo-chart:0.1.0
+$ helm push demo-chart-0.1.1.tgz oci://quay.io/$QUAY_USERNAME/test-helm
+Pushed: quay.io/greengrunt/test-helm/demo-chart:0.1.1
 Digest: sha256:31627af4fbe50626f7759ba00eaf1ffbb509433881d711598c847b5c390b28c6
 ```
 
